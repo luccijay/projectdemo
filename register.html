@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PhlexTech</title>
+<meta name="description" content="This page is about the company">
+<meta name="keyword" content="comp">
+<link href="style.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	.header{
+		width:100%;
+		background:#814465;
+	}
+	.headerobj{
+		width:80%;
+		margin:0 auto;
+		padding:10px 0;
+	}
+	.headerobj:after{
+		content: "";
+		clear: both;
+		display: table;
+	}
+	.titlebar{
+		width: 100%;
+		text-align: center;
+		background:url('image/pic9.jpg');
+		max-height:300px;
+		padding:50px 0;
+	}
+	.container{
+		width:100%;
+		padding:10px 0;
+	}
+	.row{
+		width:80%;
+		margin:0 auto;
+	}
+	.textboxleft{
+		width:50%;
+		float:left;
+		}
+	.textboxright{width:50%;float:right;}
+</style>
+</head>
+<body>
+	<div id="topbar">
+    		<div id="topobj">
+        		<ul class="list" style="float:left;">
+                	<li style="float:left; margin-right:15px"><i class="fa fa-phone"></i>+2348030263547</li>
+                    <li style="float:left; margin-right:15px"><i class="fa fa-envelope"></i>info@PhlexTech.com</li>
+                   
+                </ul>
+                <ul class="list" style="float:right;">
+                	<li style="float:left; margin-right:15px">Follow us:</li>
+                	<li style="float:left; margin-right:15px"><i class="fa fa-facebook"></i></li>
+                    <li style="float:left; margin-right:15px"><i class="fa fa-twitter"></i></li>
+                </ul>
+                <div style="clear:both;"></div>
+        </div>
+    </div>
+	<div class="header">
+		<div class="headerobj">
+				<div class="logo"><h1><span class="span">S</span>hoppe</h1></div>
+				<nav>
+					<ul class="list">
+						<li><a href="">Home</a></li>	
+						<li><a href="">About</a></li>
+						<li><a href="index.html#services">Services</a>
+						<ul class="list">
+							<li><a href="">Web Development</a></li>
+							<li><a href="">SEO Monitoring</a></li>
+							<li><a href="">Network Communities</a></li>
+							<li><a href="">Web Analytics</a></li>
+						</ul>
+						</li>
+						<li><a href="index.html#portfolio">Portfolio</a>
+						<ul class="list" style="float:left;margin-right:100%">
+							<li><a href="">Web Development</a></li>
+							<li><a href="">SEO Monitoring</a></li>
+							<li><a href="">Network Communities</a></li>
+							<li><a href="">Web Analytics</a></li>
+						</ul>
+						</li>
+						<li><a href="">Testimonial</a></li>
+						<li><a href="index.html#contact">Contact</a></li>
+						<li><a href="">Blog</a></li>
+					</ul>
+				</nav>
+		</div>
+	</div>
+	
+	<div class="titlebar">
+	<h2>Register</h2>
+			
+	</div>
+	<!--page content-->
+	<div class="container">
+		<div class="row">
+			<div class="register" style="width:50%;margin:0 auto;padding: 20px; background:#cce">
+				<h2>Please Fill al fields marked ( <span style="color:red">*</span> )</h2>
+				<form method="get" action="">
+				<div>					
+					<div class="formcontrol textboxleft" >
+						<label>Firstname<span style="color:red">*</span></label>
+						<input type="text" name="fname">
+					</div>
+					<div class="formcontrol textboxright">
+						<label>Lastname<span style="color:red">*</span></label>
+						<input type="text" name="lname">
+					</div>
+					<div class="clearfix"></div></div>
+					<div class="formcontrol">
+						<label>Email Address<span style="color:red">*</span></label>
+						<input type="text" name="email">
+					</div>
+					<div class="formcontrol">
+						<label>Phone Number</label>
+						<input type="text" name="pnum">
+					</div>
+					<div class="formcontrol">
+						<label>Password<span style="color:red">*</span></label>
+						<input type="text" name="pwd">
+					</div>
+					<div class="formcontrol">
+						<label>Retype Password<span style="color:red">*</span></label>
+						<input type="text" name="cfpwd">
+					</div>
+					<div class="formcontrol">
+						<label>Gender<span style="color:red">*</span></label>
+						<input type="radio" name="gender" value="F">Female &nbsp;
+						<input type="radio" name="gender" value="M">Female
+					</div>
+					<div class="formcontrol">
+						<label>Programming Skills<span style="color:red">*</span></label>
+						<input type="checkbox" name="skills[]" value="PHP">PHP &nbsp;
+						<input type="checkbox" name="skills[]" value="HTML/CSS">HTML/CSS &nbsp;
+						<input type="checkbox" name="skills[]" value="Javascript">Javascript <br> <input type="checkbox" name="skills[]" value="JAVA">Java &nbsp;
+						<input type="checkbox" name="skills[]" value="Andriod Dev.">Andriod Dev. &nbsp;<input type="checkbox" name="skills[]" value="C#">C#
+					</div>
+					<div class="formcontrol">
+						<label>Region/Country<span style="color:red">*</span></label>
+						<select name="region">
+							<option value="ABJ">Abuja</option>
+							<optgroup label="Lagos">
+								<option value="festac">Festac</option>
+								<option value="IKJ">Ikeja</option>
+								<option value="Lekki">Lekki</option>
+								<option value="Surulere">Surulere</option>
+							</optgroup>
+							<option value="IB">Ibadan</option>
+							<option value="PH">Port Harcourt
+						</select>
+					</div>
+					<div class="formcontrol">
+						<label>Upload<span style="color:red">*</span></label>
+						<input type="file" name="upload">
+					</div>
+					<div class="formcontrol">
+						<button class="btn">Register</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<section id="footer">
+		
+	</section>	
+	
+</body>
+</html>
